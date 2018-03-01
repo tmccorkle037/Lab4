@@ -84,8 +84,7 @@ int main(int argc, char *argv[])
 	printf("Done! (C style)\n");
 
 // --- Using fstream (C++) ----------------------------------------------------
-	ifstream inFS;	// input file stream
-	ofstream outFS;	// output file stream
+	 tFS;	// output file stream
 	string myFile = "Lab4_read_0" + to_string(n) + ".txt";
 	// What if the number entered has 2 digits?
 	// You could use the C-string filename and sprintf
